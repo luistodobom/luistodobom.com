@@ -1,0 +1,1045 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>vCard - Personal projects</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/my-avatar.png" alt="Luis Berenguer Todo Bom" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Luis Guilherme Berenguer Todo Bom">Luis Berenguer <br> Todo Bom</h1>
+
+          <p class="title">Sr. Machine Learning Engineer</p>
+          <!-- <p class="title">MSc Data Science</p> -->
+
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <!-- <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:richard@example.com" class="contact-link">contact.luis@gmail.com</a>
+            </div>
+
+          </li> -->
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>London, United Kingdom</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="https://x.com/berengtb" class="social-link">
+              <i class="fa-brands fa-x-twitter"></i>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/luistb/" class="social-link">
+              <i class="fa-brands fa-linkedin-in"></i>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Projects</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            Results-driven ML Engineer with a proven
+            track record in creating scalable ML solutions and robust data architectures
+            across diverse industries.            
+          </p>
+
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">What i'm doing</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <i class="fas fa-microphone-lines" style="font-size: 40px; color: #FFDB6E;"></i>
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Roku Voice</h4>
+
+                <p class="service-item-text">
+                  Improving voice commands for Roku devices.
+                </p>
+              </div>
+
+            </li>
+
+            <!-- <li class="service-item">
+
+              <div class="service-icon-box">
+                <i class="fas fa-brain" style="font-size: 40px; color: #FFDB6E;"></i>
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Machine Learning</h4>
+
+                <p class="service-item-text">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin egestas orci a lacus suscipit, at auctor arcu sagittis. Cras sed leo consequat, mattis dolor ac, auctor nunc. Praesent eget lobortis neque. 
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <i class="fas fa-puzzle-piece" style="font-size: 40px; color: #FFDB6E;"></i>
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">MLOps</h4>
+
+                <p class="service-item-text">
+                  Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <i class="fas fa-toolbox" style="font-size: 40px; color: #FFDB6E;"></i>
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Tooling</h4>
+
+                <p class="service-item-text">
+                  Vestibulum interdum, neque vel ullamcorper scelerisque, nibh quam sagittis nulla, vitae aliquam purus dolor in lorem.
+                </p>
+              </div>
+
+            </li>
+
+          </ul> -->
+
+        </section>
+
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
+              </figure>
+
+              <img src="./assets/images/icon-quote.svg" alt="quote icon">
+            </div>
+
+            <div class="modal-content">
+
+              <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
+
+              <time datetime="2021-06-14">14 June, 2021</time>
+
+              <div data-modal-text>
+                <p>
+                  Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
+                  lot of experience
+                  and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                  consectetur adipiscing
+                  elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                </p>
+              </div>
+
+            </div>
+
+          </section>
+
+        </div>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Senior Machine Learning Engineer <br> Roku, <i>United Kingdom</i> </h4>
+
+              <span>2024 — Present</span>
+
+              <p class="timeline-text">
+                Voice Team
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Machine Learning Engineer <br> IAG Loyalty, <i>United Kingdom</i></h4>
+
+              <span>2022 — 2024</span>
+
+              <p class="timeline-text">
+                <ul class="timeline-text">
+                  <li>Directed the creation of a scalable MLOps architecture using AWS, enabling secure, efficient deployment of production ML solutions via automated CI/CD pipelines.</li>
+                  <li>Led a team to develop an ML Recommendation System and Ranking Model, providing personalized recommendations via an API and enriching user experience across all IAG Group airlines.</li>
+                </ul>
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Global Talent UK Visa - Artificial Intelligence</h4>
+
+              <span>2022 — 2027</span>
+
+              <p class="timeline-text">
+                <ul class="timeline-text">
+                  <li>I hold a UK Global Talent VISA for exceptional talent and have been endorsed by Tech Nation in the field of Artificial Intelligence.</li>
+                  <li>The Tech Nation Visa enables the brightest and best tech talent from around the world to come and work in the UK's digital technology sector, contributing their cutting-edge expertise, creativity and innovation to maintaining the UK's position at the forefront of the global digital economy.</li>
+                </ul>
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Data Scientist <br> Alpiq, <i>Switzerland</i></h4>
+
+              <span>2022 — 2024</span>
+
+              <p class="timeline-text">
+                Engineered robust data ingestion pipelines and predictive machine
+learning models to forecast European natural gas flows, optimizing market volatility and revealing valuable trading opportunities in inconsistencies between future prices and forecasts.
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">MSc Data Science &amp; Engineering <br> Instituto Superior Técnico, <i>Portugal</i></h4>
+
+              <span>2021 — 2022</span>
+
+              <p class="timeline-text">
+                Master Thesis: Deep Learning Architectures for Point Cloud Geometry Compression
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">MSc Data Science <br> ETH Zürich, <i>Switzerland</i></h4>
+
+              <span>2018 — 2021</span>
+
+              <p class="timeline-text">
+                3D Vision, Big Data, Deep Learning, Natural Language Understanding, Future Internet, Data Stream Processing and Analytics
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">BSc Computer Science <br> Instituto Superior Técnico, <i>Portugal</i></h4>
+
+              <span>2015 — 2018</span>
+
+              <p class="timeline-text">
+                Artificial Intelligence, Distributed Systems, Software Engineering, Analysis and Synthesis of Algorithms, Computer Networks, Complex Analysis and Differential Equations
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="skill">
+
+          <h3 class="h3 skills-title">My skills</h3>
+
+          <ul class="skills-list content-card">
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Python, Java, SQL</h5>
+                <!-- <data value="80">100%</data> -->
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 100%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">C, C++, R</h5>
+                <!-- <data value="70">70%</data> -->
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 90%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">HTML/CSS Javascript</h5>
+                <!-- <data value="90">90%</data> -->
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Assembly</h5>
+                <!-- <data value="50">50%</data> -->
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 60%;"></div>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #projects
+      -->
+
+      <article class="projects">
+
+        <header>
+          <h2 class="h2 article-title">Projects</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Web design</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Applications</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Web development</button>
+            </li>
+
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Web design</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Applications</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Web development</button>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <ul class="project-list">
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/dl-project.jpg" alt="finance" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Semantic Segmentation of Histopathological Slides</h3>
+
+                <p class="project-category">
+                  This project is part of an effort towards a computer assisted diagnosis system of 
+                  Mycosis Fungoides (MF), initally proposedas a Master’s Thesis by the Information 
+                  Science and Engineering group at ETH. The goal is to segment the skin tissue into three 
+                  classes:  epidermis, spongiosis (widened intercellular spaces in 
+                  the epidermis) and other tissue. These regions are the main regions of 
+                  interest for discriminating between two diseases. A paper was published on this project in the 
+                  <a href="http://miua2020.com/" style=" display: inline;">MIUA 2020 Conference</a>
+                </p>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #BLOG
+      -->
+
+      <article class="stuff" data-page="projects">
+
+        <header>
+          <h2 class="h2 article-title">Blog</h2>
+        </header>
+
+        <section class="blog-posts">
+
+          <ul class="blog-posts-list">
+
+            <li class="blog-post-item">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/dl-project.jpg" alt="Design conferences in 2022" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Deep Learning Course</p>
+
+                    <!-- <span class="dot"></span> -->
+
+                    <!-- <time datetime="2022-02-23">MSc Data Science</time> -->
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Semantic Segmentation of Histopathological Slides</h3>
+
+                  <p class="blog-text">
+                    This project is part of an effort towards a computer assisted diagnosis system of 
+                    Mycosis Fungoides (MF), initally proposedas a Master’s Thesis by the Information 
+                    Science and Engineering group at ETH. The goal is to segment the skin tissue into three 
+                    classes:  epidermis, spongiosis (widened intercellular spaces in 
+                    the epidermis) and other tissue.  These regions are the main regions of 
+                    interest for discriminating between two diseases.
+                    <br><br>
+                    A paper was published on this project on the <a href="https://miua2020.com/" style="color: white;  display: inline;">MIUA2020 Conference</a>
+                    </p>
+
+                </div>
+
+            </li>
+
+            <li class="blog-post-item">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/3dv-project.gif" alt="Best fonts every designer" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">3D Vision Course</p>
+
+                    <!-- <span class="dot"></span> -->
+
+                    <!-- <time datetime="2022-02-23">Msc Data Science</time> -->
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Video Stabilization Module From Predicted Local Gravity Vectors</h3>
+
+                  <p class="blog-text">
+                    We developed an offline video stabilization module that
+                    will orient each frame of an input video footage with predicted local gravity vector pointing down. The module
+                    separates each frame of the input footage and adopts the
+                    method described by Lopez et al. to predict the camera extrinsic parameters, pitch and roll. The back-end pretrained model is fine-tuned on the PanoContext dataset
+                    and 360SP dataset. Our final model obtains a median
+                    roll error of 5.03o and a median tilt error of 6.02o.
+                  </p>
+                </div>
+
+            </li>
+
+            <li class="blog-post-item">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/dslab-project.jpg" alt="Design digest #80" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Data Science Lab Course</p>
+
+                    <!-- <span class="dot"></span> -->
+
+                    <!-- <time datetime="2022-02-23">Msc Data Science</time> -->
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Calibrated Precipitation Forecasts</h3>
+
+                  <p class="blog-text">
+                    We investigated Machine Learning methods for post-processing Numerical Weather Prediction (NWP) 
+                    of rainfall in Switzerland. In this task, due to the inherent uncertainty of precipitation, 
+                    the utility of the prediction for the end user does not solely come from an accurate point prediction, 
+                    but also from an informative assessment of the probability of different scenarios. As a consequence, 
+                    our goal is to provide, at any point in Switzerland, a predictive distribution that is wide enough to 
+                    capture the true rainfall and, at the same time, is narrow enough to be informative for the user.
+                  </p>
+                </div>
+
+            </li>
+
+            <li class="blog-post-item">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/nlu-project.jpg" alt="UI interactions of the week" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">NLU Course</p>
+
+                    <!-- <span class="dot"></span> -->
+
+                    <!-- <time datetime="2022-02-23">Msc Data Science</time> -->
+                  </div>
+
+                  <h3 class="h3 blog-item-title">The Story Cloze Test</h3>
+
+                  <p class="blog-text">
+                    Our main goal was replicating and improving the results obtained in the paper 
+                    <a href="https://arxiv.org/abs/1811.00625" style="color: white; display: inline;">"Incorporating Structured Commonsense Knowledge in Story Completion"</a>. 
+                    We followed this paper because we thought that combining existing solutions to increase performance seemed like a very interesting approach. 
+                    Even though the stated accuracy of the model is not much higher than the previous state-of-the-art, 
+                    we believed that possibly extracting even more information from the sentences might help in increasing the final score.
+                </p>
+
+                </div>
+
+            </li>
+
+            <li class="blog-post-item">
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/DSPA-project.png" alt="The forgotten art of spacing" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Data Stream Processing Course</p>
+
+                    <!-- <span class="dot"></span> -->
+
+                    <!-- <time datetime="2022-02-23">MSc Data Science</time> -->
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Social Network Stream Processing</h3>
+
+                  <p class="blog-text">
+                    In this project we used stream processing tools (<a href="https://flink.apache.org" style="color: white; display: inline;">Apache Flink</a> and <a href="https://kafka.apache.org" style="color: white; display: inline;">Apache Kafka</a>) to build the backend of a hypothetical social network. 
+                    We developed tools to replay and ingest streams of posts and comments and extended the 
+                    data pipeline to continuously suggest recommended friends and detect people with suspicious behaviour.                   
+                  </p>
+                </div>
+            </li>
+
+            <li class="blog-post-item">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/FI-project.jpg" alt="Design digest #79" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Future Internet Course</p>
+
+                    <!-- <span class="dot"></span> -->
+
+                    <!-- <time datetime="2022-02-23">Msc Data Science</time> -->
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Low Earth Orbit Satellite Constellation Topology Design</h3>
+
+                  <p class="blog-text">
+                    In this project, the goal was to construct a low-earth orbit (LEO) satellite network optimally, 
+                    given all satellite positions, by setting up inter-satellite links (ISLs). We used a linear solver to compute the optimal solution.                  </p>
+
+                </div>
+
+            </li>
+
+            <li class="blog-post-item">
+
+              <figure class="blog-banner-box">
+                <img src="./assets/images/aml-project.jpg" alt="UI interactions of the week" loading="lazy">
+              </figure>
+
+              <div class="blog-content">
+
+                <div class="blog-meta">
+                  <p class="blog-category">Advanced ML Course</p>
+
+                  <!-- <span class="dot"></span> -->
+
+                  <!-- <time datetime="2022-02-23">Msc Data Science</time> -->
+                </div>
+
+                <h3 class="h3 blog-item-title">Automatic Sleep Staging</h3>
+
+                <p class="blog-text">
+                  In this project we performed sequence classification. 
+                  We categorized temporally coherent and uniformly distributed short sections of a long time-series. 
+                  In particular, for each 4 seconds of a lengthy EEG/EMG measurement of brain activity recorded during sleep, 
+                  we assigned one of the 3 classes corresponding to the sleep stage present within the evaluated epoch.
+              </p>
+
+              </div>
+
+          </li>
+
+          <li class="blog-post-item">
+
+            <figure class="blog-banner-box">
+              <img src="./assets/images/aticn-project.jpg" alt="UI interactions of the week" loading="lazy">
+            </figure>
+
+            <div class="blog-content">
+
+              <div class="blog-meta">
+                <p class="blog-category">Advanced Topics in Communication Networks Course</p>
+
+                <!-- <span class="dot"></span> -->
+
+                <!-- <time datetime="2022-02-23">Msc Data Science</time> -->
+              </div>
+
+              <h3 class="h3 blog-item-title">P4 - I Know What You're Seeing Right Now</h3>
+
+              <p class="blog-text">
+                Likewise, the amount of data individuals cause and share, conscious or not, has also increased. 
+                Thus, privacy concerns have become a very prominent topic and in the near future most Internet traﬃc will be encrypted. 
+                In the work <a href="https://ieeexplore.ieee.org/document/7987775" style="color: white; display: inline;">”I Know what You Saw Law Minute”</a>, 
+                the authors showed that it is possible for a passive adversary to successfully identify the video title by eavesdropping on 
+                an encrypted adaptive video stream. This project augments this work by providing an implementation that is able to perform the classiﬁcation 
+                of video titles in real-time, while maintaining line-rate at a network level.
+            <br><br>
+            In April 2019, attention to this attack was raised in <a href="https://www.wired.com/story/netflix-interactive-bandersnatch-hackers-choices" style="color: white; display: inline;">mainstream media</a>, 
+            referencing the possibility of attackers knowing which choices were made in interactive movies.
+            </p>
+
+            </div>
+        </li>
+
+        <li class="blog-post-item">
+
+          <figure class="blog-banner-box">
+            <img src="./assets/images/comp-project.jpg" alt="UI interactions of the week" loading="lazy">
+          </figure>
+
+          <div class="blog-content">
+
+            <div class="blog-meta">
+              <p class="blog-category">Compilers Course</p>
+
+              <!-- <span class="dot"></span> -->
+
+              <time datetime="2022-02-23">BSc Computer Science</time>
+            </div>
+
+            <!-- <h3 class="h3 blog-item-title">GR8 Programming Language</h3> -->
+
+            <p class="blog-text">
+              The GR8 language is an imperative unstructured language. 
+              One of the objectives of the language was to allow easy reading, 
+              so it is strongly restrictive regarding the appearance and position of the code in the lines (indentation).
+          </p>
+
+          </div>
+
+      </li>
+
+      <li class="blog-post-item">
+
+        <figure class="blog-banner-box">
+          <img src="./assets/images/SD-project.jpg" alt="UI interactions of the week" loading="lazy">
+        </figure>
+
+        <div class="blog-content">
+
+          <div class="blog-meta">
+            <p class="blog-category">Distributed Systems Course</p>
+
+            <!-- <span class="dot"></span> -->
+
+            <!-- <time datetime="2022-02-23">BSc Computer Science</time> -->
+          </div>
+
+          <h3 class="h3 blog-item-title">Binas - Shared Bicycle Platform</h3>
+
+          <p class="blog-text">
+            The goal of this project was to develop a Web Services-based system implemented in the Java platform
+            for the management of a shared bicycle platform called Binas.
+            We implemented an active replication approach to replication of data, the <i>quorum consensus</i> protocol.
+            Finally, we augmented our solution with the <i>Kerberos</i> protocol for security.
+        </p>
+
+        </div>
+
+    </li>
+
+    <li class="blog-post-item">
+
+      <figure class="blog-banner-box">
+        <img src="./assets/images/cg-project.jpg" alt="UI interactions of the week" loading="lazy">
+      </figure>
+
+      <div class="blog-content">
+
+        <div class="blog-meta">
+          <p class="blog-category">Computer Grafics Course</p>
+
+          <!-- <span class="dot"></span> -->
+
+          <!-- <time datetime="2022-02-23">BSc Computer Science</time> -->
+        </div>
+
+        <h3 class="h3 blog-item-title">Micro Machines Video Game</h3>
+
+        <p class="blog-text">
+          The purpose of this project was to recreate the classic video game "Micro Machines" in a simplified 3D version, using three.js. 
+          The idea was to maintain the original gameplay by changing the graphical perspective so that the various elements of the game have a 3D look. 
+      </p>
+
+      </div>
+
+  </li>
+
+  <li class="blog-post-item">
+
+    <figure class="blog-banner-box">
+      <img src="./assets/images/ipm-project.jpg" alt="UI interactions of the week" loading="lazy">
+    </figure>
+
+    <div class="blog-content">
+
+      <div class="blog-meta">
+        <p class="blog-category">Human-Computer Interaction Course</p>
+
+        <!-- <span class="dot"></span> -->
+
+        <!-- <time datetime="2022-02-23">BSc Computer Science</time> -->
+      </div>
+
+      <h3 class="h3 blog-item-title">Com.ISTo - Interactive Tabletop for Restaurants</h3>
+
+      <p class="blog-text">
+        Com.ISTo is an interactive table where you can view the restaurant's menu, order your meal and customize your order. 
+        Its touch screen makes it easy to use, and the various sensors and cameras at the table can make your visit more enjoyable.
+        The objective was to develop a user interface for the table that allows users to access their functionalities in an efficient, effective and pleasant way.
+    </p>
+
+    </div>
+
+</li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #CONTACT
+      -->
+
+      <article class="contact">
+
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+
+        <section class="mapbox" data-mapbox>
+          <figure>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d199666.5651251294!2d-121.58334177520186!3d38.56165006739519!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x809ac672b28397f9%3A0x921f6aaa74197fdb!2sSacramento%2C%20CA%2C%20USA!5e0!3m2!1sen!2sbd!4v1647608789441!5m2!1sen!2sbd"
+              width="400" height="300" loading="lazy"></iframe>
+          </figure>
+        </section>
+
+        <section class="contact-form">
+
+          <h3 class="h3 form-title">Contact Form</h3>
+
+          <form action="#" class="form" data-form>
+
+            <div class="input-wrapper">
+              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+
+              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+            </div>
+
+            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+
+            <button class="form-btn" type="submit" disabled data-form-btn>
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Send Message</span>
+            </button>
+
+          </form>
+
+        </section>
+
+      </article>
+
+    </div>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
